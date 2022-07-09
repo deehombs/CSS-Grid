@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    grid-auto-rows:minmax(100px, auto);
+
+}
+
+.items{
+
+    background-color: rgb(0, 250, 217);
+    padding: 1em;
+    border: 2px solid 
+}
+#box1 {
+    align-self:flex-start;
+}
+#box2{
+    align-self: flex-end;
+}
+#box3{
+    justify-self:end;
+}
+#box4{
+    align-self: center;
+}
